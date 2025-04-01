@@ -1,11 +1,10 @@
 import './App.css'
+import StudyPlanForm from "./components/StudyPlanForm";
 
-function App() {
+export default function App() {
   return (
-    <div className="text-3xl text-center mt-10 text-blue-600">
-      ✅ Tailwind CSS is working!
+    <div className="min-h-screen bg-gray-50">
+      <StudyPlanForm />
     </div>
   );
 }
-
-export default App;
